@@ -20,7 +20,7 @@ actions_matching = {
 computer_action = random.choice(possible_actions)
 
 # printing both player action | In ra lựa chọn cả 2
-print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+print(f"You chose {user_action}, computer chose {computer_action}.")
 
 # checking actions | Kiểm tra lựa chọn/So sánh
 if user_action == computer_action:
