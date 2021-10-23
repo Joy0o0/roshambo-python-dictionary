@@ -7,6 +7,7 @@ user_action = input("Enter a choice (rock, paper, scissors): ")
 possible_actions = ["rock", "paper", "scissors"]
 
 # action comparision (matching) | So sánh lựa chọn
+# this is a dictinary | Đây là một dictionary (từ điển)
 actions_matching = {
     'rock_scissors': 'Win',
     'rock_paper': 'Lose',
