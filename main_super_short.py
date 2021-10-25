@@ -1,5 +1,4 @@
 import random
-
 user_action = input("Enter a choice (rock, paper, scissors): ")
 actions_matching = {
     'rock_scissors': 'Win',
@@ -9,6 +8,5 @@ actions_matching = {
     'scissors_rock': 'Lose',
     'scissors_paper': 'Win'
 }
-
 computer_action = random.choice(["rock", "paper", "scissors"])
 print(f"Tie") if user_action == computer_action else print(f'{actions_matching[f"{user_action}_{computer_action}"]}')
